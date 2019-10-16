@@ -9,9 +9,9 @@ const Introduction = props => {
         to Internet and programming. I am able to develop web applications with
         languages such as JavaScript and Python and also passionate about
         learning new things and solving problems in a creative way. Currently, I
-        am looking for opportunities as a junior front-end or back-end developer
-        with organizations that could not only take him to another programming
-        level but also allow him to work alongside a very specialized team.
+        am looking for opportunities as a junior full-stack developer with
+        organizations that could not only take him to another programming level
+        but also allow him to work alongside a very specialized team.
       </p>
     </section>
   );

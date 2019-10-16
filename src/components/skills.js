@@ -16,8 +16,8 @@ const Skills = props => {
         <ul id="skill_list">
           <li>JavaScript</li>
           <li>React</li>
+          <li>Redux</li>
           <li>CSS</li>
-          <li>Bootstrap</li>
           <li>HTML</li>
         </ul>
       </div>
@@ -32,9 +32,9 @@ const Skills = props => {
         <p id="motto">I like create fun and impressive user experience</p>
         <h5>Tools:</h5>
         <ul id="skill_list">
-          <li>Python</li>
+          <li>Node.js</li>
           <li>Django</li>
-          <li>SQL</li>
+          <li>MongoDB</li>
           <li>REST API</li>
         </ul>
       </div>
