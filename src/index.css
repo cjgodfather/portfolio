@@ -37,7 +37,7 @@ li {
   margin-left: 50px;
 }
 
-img {
+#nav img {
   background-color: #fff;
   padding: 5px;
   margin: 10px 20px;
@@ -153,43 +153,49 @@ h2 {
   justify-content: center;
   width: 100%;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   margin: 0 1% 0 1%;
 }
 
-#projects a {
-  text-decoration: none;
-  color: white;
-}
-
-#project {
-  width: 20%;
+.container {
   position: relative;
-  margin: 0 2%;
+  width: 34%;
+  margin: 2% 0;
 }
 
-#project img {
-  width: 96%;
-  margin: 0 2%;
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 100%;
-  overflow: auto;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #371977;
 }
 
-#project #title h5 {
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
   position: absolute;
-  left: 5%;
   top: 50%;
-  font-size: 8px;
-  color: white;
-  display: none;
-}
-
-#project #title p {
-  position: absolute;
-  left: 10%;
-  top: 60%;
-  font-size: 8px;
-  color: white;
-  display: none;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #blogs {
@@ -350,7 +356,7 @@ h2 {
     font-size: 0.5em;
   }
 
-  img {
+  #about img {
     border: 1px solid #e3deef;
     border-radius: 10px;
   }
@@ -385,16 +391,15 @@ h2 {
   }
 
   #projects #projects_list {
-    display: flex;
     flex-direction: column;
     width: 100%;
     flex-wrap: wrap;
-    margin: 0 1% 0 1%;
+    justify-content: center;
   }
 
-  #project {
+  .container {
     width: 80%;
-    margin: 0 10%;
+    margin: 2% 10%;
   }
 
   #footer p {
