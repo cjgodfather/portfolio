@@ -1,10 +1,10 @@
 import React, { Component } from "react";
+import "./App.css";
 import Navbar from "./components/navbar";
 import About from "./components/about";
 import Introduction from "./components/intro";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
-import Blogs from "./components/blogs";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 

@@ -166,7 +166,7 @@ h2 {
 .image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .overlay {
@@ -192,6 +192,7 @@ h2 {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 100%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
