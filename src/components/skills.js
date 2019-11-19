@@ -11,11 +11,12 @@ const Skills = props => {
           alt="frontend_pic"
         />
         <h3>Front-end Developer</h3>
-        <p id="motto">I like create fun and impressive user experience</p>
+
         <h5>Tools:</h5>
         <ul id="skill_list">
           <li>JavaScript</li>
           <li>React</li>
+          <li>React Hooks</li>
           <li>Redux</li>
           <li>CSS</li>
           <li>HTML</li>
@@ -29,13 +30,15 @@ const Skills = props => {
           alt="backend_pic"
         />
         <h3>Back-end Developer</h3>
-        <p id="motto">I like create fun and impressive user experience</p>
+
         <h5>Tools:</h5>
         <ul id="skill_list">
-          <li>Node.js</li>
+          <li>NodeJS</li>
+          <li>Express</li>
           <li>Django</li>
-          <li>MongoDB</li>
-          <li>REST API</li>
+          <li>SQL</li>
+          <li>Postgres</li>
+          <li>SQlite3</li>
         </ul>
       </div>
       <div id="algorithm">
@@ -46,12 +49,13 @@ const Skills = props => {
           alt="algo_pic"
         />
         <h3>Algorithm Designer</h3>
-        <p id="motto">I like create fun and impressive user experience</p>
+
         <h5>Tools:</h5>
         <ul id="skill_list">
           <li>Data Structure</li>
           <li>Divide and Conquor</li>
           <li>Greedy Algorithm</li>
+          <li>Dynamic Programming</li>
         </ul>
       </div>
     </section>

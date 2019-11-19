@@ -55,7 +55,7 @@ const Projects = props => {
             className="image"
           />
           <div className="overlay">
-            <div className="text">Hello World</div>
+            <div className="text">AirBnB Optimal Price</div>
           </div>
         </div>
       </div>
