@@ -43,7 +43,9 @@ const Projects = props => {
             className="image"
           />
           <div className="overlay">
-            <div className="text">Empowered Conversation</div>
+            <a href="https://empowered-conversations.github.io/ec-web-ui/index.html">
+              <div className="text">Empowered Conversation</div>
+            </a>
           </div>
         </div>
         <div className="container">
@@ -55,7 +57,9 @@ const Projects = props => {
             className="image"
           />
           <div className="overlay">
-            <div className="text">AirBnB Optimal Price</div>
+            <a href="https://https://hostifyapp.netlify.com/">
+              <div className="text">AirBnB Optimal Price</div>
+            </a>
           </div>
         </div>
       </div>
