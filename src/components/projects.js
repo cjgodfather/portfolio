@@ -50,7 +50,7 @@ const Projects = props => {
           <img
             width="200px"
             height="200px"
-            src="pictures/random-acts.png"
+            src="pictures/airbnb.png"
             alt="random_act"
             className="image"
           />
