@@ -324,7 +324,7 @@ h2 {
   #nav img {
     width: 14%;
     height: 25px;
-    margin-left: 32%;
+    margin-left: 29%;
   }
 
   #dropdown {
@@ -336,11 +336,11 @@ h2 {
     display: block;
   }
 
-  ul {
+  #nav ul {
     display: none;
   }
 
-  .open {
+  #nav .open {
     display: block;
     font-size: 0.5em;
     background-color: #eeecf3;
@@ -350,6 +350,11 @@ h2 {
     margin-bottom: 20px;
     padding-left: 10px;
     height: auto;
+  }
+  #nav ul li {
+    list-style-type: none;
+    padding: 1%;
+    margin-right: 10px;
   }
 
   h1 {
@@ -391,7 +396,7 @@ h2 {
   }
 
   #skills li {
-    width: 90%;
+    width: 100%;
   }
 
   #projects #projects_list {
@@ -412,5 +417,9 @@ h2 {
 
   #footer #react {
     font-size: 0.1em;
+  }
+
+  #footer .logo {
+    margin-top: 20px;
   }
 }

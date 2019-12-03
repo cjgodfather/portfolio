@@ -4,7 +4,13 @@ const Footer = props => {
   return (
     <section id="footer">
       <div>
-        <img src="/pictures/logo.png" width="35px" height="35px" alt="logo" />
+        <img
+          className="logo"
+          src="/pictures/logo.png"
+          width="35px"
+          height="35px"
+          alt="logo"
+        />
         <h4>Learning, brainstorming, and creating new ideas together</h4>
         <div id="social_media">
           <a href="https://www.linkedin.com/in/chao-ji-113b594a/">
